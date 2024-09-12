@@ -1,0 +1,249 @@
+body{
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    /* align-items: start; */
+    padding: 20px 10px;
+    border-right: 1px solid #676767;
+    height: 700px;;
+    width: 4%;
+    gap: 30px;
+    position: fixed;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 10px;
+}
+.side-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.side-icon img{
+    width: 25px;
+}
+.side-icon:first-child{
+   margin-bottom: 20px;
+}
+
+.side-icon img{
+    width: 25px;
+}
+.main{
+    position: relative;
+    left: 7%;
+}
+.nav{
+    display: grid;
+    justify-content: space-between;
+    padding: 10px;
+    align-items:center;
+    grid-template-columns: 20% 50% 20%;
+}
+.hero{
+    width: 1240px;
+    display: block;
+    justify-content: space-between;
+    align-items: start;
+    position: fixed;
+    background-color: white;
+    z-index: 5;
+}
+.nav img{
+    width: 120px;
+    height: auto;
+}
+.mic img{
+    width: 20px;
+    background-color: #e1e1e1;
+    padding: 1px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.mic img:hover{
+    background-color: #c4c2c2; 
+    transition: 0.4s ease-in-out;
+}
+.right-icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* gap: 20px; */
+}
+.right-icons img{
+    width: 24px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+ 
+}
+.right-icons img:last-child{
+    width: 18px;
+    margin-left: 10px;
+    padding: 10px;
+  
+}
+.center{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid gray;
+    padding-left: 20px;
+    border-radius: 50px;
+    width: 80%;
+}
+.search input{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    font-family: "poppins";
+
+}
+.search img{
+    width: 20px;
+    height: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-left: 1px solid gray;
+}
+.tabs{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px 85px 0px ;
+    position: relative;
+    top: 3%;
+}
+.tabs span{
+    padding: 5px 18px;
+    background-color: #e1e1e1;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.videos{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-top: 40px;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+.vid{
+    width: 390px;
+}
+video{
+    width: 390px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.video-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: start;
+    padding: 5px;
+    width: 100%;
+}
+.video-info img{
+    width: 30px;
+    margin-top: 5px;
+}
+.video-info img:last-child{
+    width: 20px;
+    margin-top: 5px;
+}
+.title h4{
+    margin-top:0;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.title span{
+    font-size: 14px;
+    color: #606060;
+}
+.first{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+}
+.stats{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+/* }
+@media screen and (min-width:768px){
+    .videos{
+        display: flex;
+        flex-direction: colomn;
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .videos{
+        display: block;
+        width: 100%;
+    }
+    .vid{
+        width: 920px;
+        margin-left: 15px;
+    }
+    video{
+        width: 920px;
+    }
+    .tabs{
+      display: inline-block;  
+      width: 100%;
+      top:1.6%;
+      margin-left: 20px;
+       
+    }
+    .sidebar a{
+        font-size: 7px;
+    }
+    .tabs{
+        display:inline-block;
+        width: 100%;
+        top: 1.6%;
+        margin-left:20px ;
+    }
+    .tabs span{
+        margin-bottom: 80px;
+        padding: 8px 20px;
+    } */
+}
+.shorts{
+    padding: 80px 10px;
+}
+.short h1{
+    font-size: 32px;
+}
+.short{
+    display:flex;
+    gap: 50px;
+}
+.shorts video {
+    width: 150px;
+}
+
